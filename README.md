@@ -35,25 +35,32 @@ A small software aims to change the wallpaper image of Gnome Desktop randomly. D
 &nbsp;  
 &nbsp;  
 
-### Features in current version (0.1.0)
-   + Prints the syntax and a short options help on the screen;
-      - `-h` short options help;
-      - `-s` show status;
-      - `-v` show version;
-      - `-t` define o tempo de espera para troca do papel de parede;
-      - `-d` define o diretório de imagens para o papel de parede;
-      - `-a` inicia a troca automática de papel de parede;
-      - `-o` para a troca automática de papel de parede;
-      
-   + Returns one encrypted text file from one given decrypted text file, and with password usage;
-   + Returns one decrypted text file from one given encrypted text file, and with password usage;
-   + Returns one encrypted text file from one given decrypted text file, and without password;
-   + Returns one decrypted text file from one given encrypted text file, and without password;
-   
+### Features in current version (0.6.2)
+  + Prints syntax and brief option help to the screen;
+  + Prints the current version of _*grw*_ to the screen;
+  + Prints the current status of the configuration set to the screen;
+  + Sets the timeout for automatically changing the wallpaper;
+  + Sets a directory as the image directory;
+  + Starts the infinite loop for image changing;
+  + Stops the infinite loop for image changing;  
+  + Sets the default value for all configurations;
+
+&nbsp;  
+
+##### Release notes to _*grw*_ v0.6.2
+  + The whole project has been changed to english;
+  + Constant for `grw.yaml` config file default directory has been fixed;
+  + Method for set waiting time has been fixed.
+
+&nbsp;  
+&nbsp;  
+
 ### Features in target release version (1.0.0)
-   + Features above; more...
-   + Character set workable: ASCII.  
-   + To verify command line arguments acceptables, otherwise print error on the screen;
-   + To verify whether given file path exists, otherwise print error on the screen.
+  + All features above, more...
+  + Handle 'n' different image directories along their aliases;
+
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
 
